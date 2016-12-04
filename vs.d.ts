@@ -796,12 +796,12 @@ declare namespace __vis {
      * All options of this object are explained below.
      * The joinCondition is only presented with the connected nodes.
      * 
-     * @param {string} nodeId the id of the node
+     * @param {IdType} nodeId the id of the node
      * @param {IClusterOptions} [options] the cluster options
      * 
      * @memberOf Network
      */
-    public clusterByConnection(nodeId: string, options?: IClusterOptions): void;
+    public clusterByConnection(nodeId: IdType, options?: IClusterOptions): void;
 
     /**
      * This method checks all nodes in the network and those with a equal or higher
