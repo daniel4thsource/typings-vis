@@ -1527,6 +1527,8 @@ declare namespace __vis {
       image?: string;
       shape?: string;
       title?: string;
+      cid?: IdType;
+      group?: IdType;
   }
 
   export interface IEdge {
