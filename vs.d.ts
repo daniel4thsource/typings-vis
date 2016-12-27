@@ -1529,12 +1529,19 @@ declare namespace __vis {
       title?: string;
       cid?: IdType;
       group?: IdType;
+      color?: string;
+      size?: number;
   }
 
   export interface IEdge {
       from?: IdType;
       to?: IdType;
       id?: IdType;
+      label?: string;
+      title?: string;
+      color?: string;
+      dashes?: boolean;
+      width?: number;
   }
 
   export interface IOptions {
