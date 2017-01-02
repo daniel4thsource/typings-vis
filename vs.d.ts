@@ -1531,6 +1531,7 @@ declare namespace __vis {
       group?: IdType;
       color?: string;
       size?: number;
+      shadow?: any;
   }
 
   export interface IEdge {
@@ -1542,6 +1543,7 @@ declare namespace __vis {
       color?: string;
       dashes?: boolean;
       width?: number;
+      shadow?: any;
   }
 
   export interface IOptions {
