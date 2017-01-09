@@ -1761,7 +1761,7 @@ declare namespace __vis {
   }
 }
 
-declare module "vis" {
+declare module "vis-4th" {
   export = __vis;
 }
 
