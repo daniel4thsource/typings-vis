@@ -1537,7 +1537,7 @@ declare namespace __vis {
       title?: string;
       cid?: IdType;
       group?: IdType;
-      color?: string;
+      color?: any;
       size?: number;
       shadow?: any;
   }
@@ -1548,10 +1548,11 @@ declare namespace __vis {
       id?: IdType;
       label?: string;
       title?: string;
-      color?: string;
+      color?: any;
       dashes?: boolean;
       width?: number;
       shadow?: any;
+      font?: any;
   }
 
   export interface IOptions {
