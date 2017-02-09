@@ -1540,6 +1540,7 @@ declare namespace __vis {
       color?: any;
       size?: number;
       shadow?: any;
+      dbNode?: any;
   }
 
   export interface IEdge {
